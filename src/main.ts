@@ -18,8 +18,8 @@ OBR.onReady(async () => {
       max: Infinity,
       roles: ["GM"]
     },
-    onClick: async (context: any) => {
-      await OBR.scene.items.updateItems(context.items, (items: any[]) => {
+    onClick: async (context) => {
+      await OBR.scene.items.updateItems(context.items, (items) => {
         for (const item of items) {
           const chest = upsertChestMetadata(item, "common");
           item.metadata = {
@@ -44,8 +44,8 @@ OBR.onReady(async () => {
       max: Infinity,
       roles: ["GM"]
     },
-    onClick: async (context: any) => {
-      await OBR.scene.items.updateItems(context.items, (items: any[]) => {
+    onClick: async (context) => {
+      await OBR.scene.items.updateItems(context.items, (items) => {
         for (const item of items) {
           const chest = getChestMetadata(item);
           if (!chest) continue;

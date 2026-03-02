@@ -1,9 +1,9 @@
 {
   "name": "Lootheo - Chest Loot",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "manifest_version": 1,
   "author": "Lootheo",
-  "icon": "./icon.svg",
+  "icon": "/icon.svg",
   "homepage_url": "https://github.com/owlbear-rodeo/sdk-tutorials",
-  "background_url": "./index.html"
+  "background_url": "/index.html"
 }
