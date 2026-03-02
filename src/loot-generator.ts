@@ -1,4 +1,4 @@
-import type { LootItem, LootRarity } from "./types";
+import type { LootItem, LootRarity } from "../types";
 
 const TABLES: Record<LootRarity, LootItem[]> = {
   common: [

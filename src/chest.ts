@@ -1,6 +1,6 @@
-import type { ChestMetadata, LootRarity } from "./types";
-import { LOOTHEO_CHEST_METADATA_KEY } from "./types";
-import { generateChestLoot } from "./loot-generator";
+import type { ChestMetadata, LootRarity } from "../types";
+import { LOOTHEO_CHEST_METADATA_KEY } from "../types";
+import { generateChestLoot } from "../loot-generator";
 
 interface ItemLike {
   id: string;
