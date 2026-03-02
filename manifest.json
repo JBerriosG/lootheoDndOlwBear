@@ -4,6 +4,5 @@
   "manifest_version": 1,
   "author": "Lootheo",
   "icon": "/icon.svg",
-  "homepage_url": "https://github.com/owlbear-rodeo/sdk-tutorials",
   "background_url": "/index.html"
 }
