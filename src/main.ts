@@ -1,6 +1,6 @@
 import OBR from "@owlbear-rodeo/sdk";
-import { getChestMetadata, toggleChestState, upsertChestMetadata } from "../chest";
-import { LOOTHEO_CHEST_METADATA_KEY } from "../types";
+import { getChestMetadata, toggleChestState, upsertChestMetadata } from "./chest";
+import { LOOTHEO_CHEST_METADATA_KEY } from "./types";
 
 const TOOL_ID = "io.lootheo.chest-tool";
 
